@@ -1,0 +1,306 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>无标题文档</title>
+    <style type="text/css">
+		*{
+			margin:0;
+			padding:0;
+		}
+		#container{
+			width:100%;
+			background:#fff9ed;
+		}
+		#header{
+			width:100%;
+			height:128px;
+			background:#9F6 url(images/head_bg.jpg) repeat-x;
+		}
+		#banner{
+			width:980px;
+			height:373px;
+			background:#F99 url(images/banner.jpg) no-repeat;
+			margin:auto;
+		}
+		#jpzs{
+			width:980px;
+			height:335px;
+			background:#ec6e47;
+			margin:auto;
+			padding-top:10px;
+		}
+		#clqy{
+			width:980px;
+			height:404px;
+			margin:auto;
+			margin-top:80px;
+		}
+		#footer{
+			width:100%;
+			height:103px;
+			background:#000;
+			color:#fff;
+			line-height:26px;
+			text-align:center;
+			padding-top:50px;
+			margin-top:65px;
+			
+		}
+		#header ul{
+			list-style-type:none;
+			margin:auto;
+			width:980px;
+		}
+		#header ul li{
+			float:left;
+		}
+		#header ul li:first-child{
+			width:178px;
+			height:118px;
+			background:url(images/logo.png) no-repeat;
+		}
+		#header ul li a{
+			width:119px;
+			height:91px;
+			display:block;
+			text-align:center;
+			line-height:91px;
+			color:white;
+			text-decoration:none;
+		}
+		#header ul li a:hover{
+			background:url(images/xuanfu.png) no-repeat;
+		}
+		#sub_jpzs{
+			background:white;
+			width:910px;
+			height:322px;
+			margin:auto;
+			padding-top:8px;
+		}
+		dl.left{
+			width:280px;
+			height:316px;
+			background:white;
+			margin-left:10px;
+			float:left;
+		}
+		dl.center{
+			width:280px;
+			height:316px;
+			background:white;
+			margin-left:5px;
+			float:left;
+		}
+		dl.right{
+			width:325px;
+			height:316px;
+			background:white;
+			margin-left:5px;
+			float:left;
+		}
+		dl.left dt.left_1{
+			width:162px;
+			height:169px;
+			background:url(images/pic01.jpg) no-repeat;
+			float:left;
+		}
+		dl.left dd.left_1{
+			width:118px;
+			height:169px;
+			background:black;
+			color:white;
+			float:left;
+			text-align:center;
+			line-height:169px;
+		}
+		dl.left dt.left_2{
+			width:162px;
+			height:137px;
+			background:url(images/pic02.jpg) no-repeat;
+			float:left;
+			margin-top:10px;
+		}
+		dl.left dd.left_2{
+			width:118px;
+			height:137px;
+			background:black;
+			color:white;
+			float:left;
+			text-align:center;
+			line-height:137px;
+			margin-top:10px;
+		}
+		dl.center dt.center_1{
+			width:162px;
+			height:117px;
+			background:url(images/pic03.jpg) no-repeat;
+			float:left;
+		}
+		dl.center dd.center_1{
+			width:118px;
+			height:117px;
+			background:black;
+			color:white;
+			float:left;
+			text-align:center;
+			line-height:117px;
+			
+		}
+		dl.center dt.center_2{
+			width:162px;
+			height:188px;
+			background:url(images/pic04.jpg) no-repeat;
+			float:left;
+			margin-top:10px;
+		}
+		dl.center dd.center_2{
+			width:118px;
+			height:188px;
+			background:black;
+			color:white;
+			float:left;
+			text-align:center;
+			line-height:188px;
+			margin-top:10px;
+		}
+		dl.right dt.right_1{
+			width:205px;
+			height:314px;
+			background:url(images/pic05.jpg) no-repeat;
+			float:left;
+		}
+		dl.right dd.right_1{
+			width:120px;
+			height:314;
+			background:black;
+			color:white;
+			float:left;
+			text-align:center;
+			line-height:314px;
+		}
+		
+		#clqy h2{
+			width:254px;
+			height:50px;
+			background:#ea6c46;
+			font-size:16px;
+			text-align:center;
+			line-height:50px;
+			color:#FFF;
+			font-weight:normal;
+		}
+		#clqy div{
+			width:980px;
+			height:339px;
+			border:1px solid #ccc;
+			padding-top:15px;
+		}
+		#clqy dl{
+			width:229px;
+			height:330px;
+			border:1px solid #ccc;
+			float:left;
+		}
+		#clqy dl:nth-child(1){
+			margin-left:20px;
+			margin-right:5px;
+		}
+		#clqy dl:nth-child(2){
+			margin-right:5px;
+		}
+		#clqy dl:nth-child(3){
+			margin-right:5px;
+		}
+		#clqy dl:nth-child(4){
+			margin-right:5px;
+		}
+		#clqy dl dd{
+			margin-top:24px;
+			margin-bottom:24px;
+			font-size:16px;
+			text-align:center;
+			color:#7a7a7a;
+		}
+		#clqy dl dd a{
+			display:block;
+			width:200px;
+			height:38px;
+			color:fff;
+			background:#f3734e url(images/gouwu.jpg) no-repeat;
+			margin:auto;
+			line-height:38px;
+			text-align:left;
+			text-indent:59px;
+			text-decoration:none;			
+		}
+	</style>
+</head>
+    
+    <body>
+    	<div id="container">
+        	<div id="header">
+            	<ul>
+                	<li></li>
+                    <li><a href="#">穿搭速递</a></li>
+                    <li><a href="#">时尚大片</a></li>
+                    <li><a href="#">星着装</a></li>
+                    <li><a href="#">时尚圈</a></li>
+                    <li><a href="#">时尚专栏</a></li>
+                    <li><a href="#">会员/登陆</a></li>
+                </ul>
+            </div>
+            <div id="banner"></div>
+            <div id="jpzs">
+            	<div id="sub_jpzs">
+                    <dl class="left">
+                    	<dt class="left_1"></dt>
+                        <dd class="left_1">明星风尚</dd>
+                        <dt class="left_2"></dt>
+                        <dd class="left_2">时尚博主</dd>
+                    </dl>
+                    <dl class="center">
+                    	<dt class="center_1"></dt>
+                        <dd class="center_1">流行搭配</dd>
+                        <dt class="center_2"></dt>
+                        <dd class="center_2">精选秀场</dd>
+                    </dl>
+                    <dl class="right">
+                    	<dt class="right_1"></dt>
+                        <dd class="right_1">环球街拍</dd>
+                    </dl>
+                </div>
+            </div>
+            <div id="clqy">
+            	<h2>潮流前沿 / Tidal current</h2>
+                <div>
+                	<dl>
+                    	<dt><img src="images/match01.jpg" /></dt>
+                        <dd>潮流饰品</dd>
+                        <dd><a href="#">快速购买通道</a></dd>
+                    </dl>
+                    <dl>
+                    	<dt><img src="images/match02.jpg" /></dt>
+                        <dd>时尚女鞋</dd>
+                        <dd><a href="#">快速购买通道</a></dd>
+                    </dl>
+                    <dl>
+                    	<dt><img src="images/match03.jpg" /></dt>
+                        <dd>精品包包</dd>
+                        <dd><a href="#">快速购买通道</a></dd>
+                    </dl>
+                    <dl>
+                    	<dt><img src="images/match04.jpg" /></dt>
+                        <dd>百搭衣帽</dd>
+                        <dd><a href="#">快速购买通道</a></dd>
+                    </dl>
+                </div>
+            </div>
+            <div id="footer">
+            	<p>Copyright ? 2006-2016 CHAOLIUFUSHIcom, All rights reserved.</p>
+                <p>2001-2018，版权所有 潮流服饰 85CP备13385453</p>
+            </div>
+        </div>
+    </body>
+</html>
